@@ -1,0 +1,34 @@
+
+<html>
+<head>
+	<title>to number add</title>
+	<script>
+		function add() {
+	
+		var a,b,c,s;
+		a= Number(document.getElementById("pp").value);
+		b= Number(document.getElementById("tt").value);
+		c= Number(document.getElementById("rr").value);
+		s=((a*b*c)/100);
+
+			alert("Intrest="+s);
+		}
+
+
+	</script>
+</head>
+<body>
+
+	<form>
+			<h1 style="color: green; text-align: center;">Simple intrest</h1>
+
+		 Enter Principal  : <input  id="pp" value=""> <br><br>
+		 Enter  Time : <input id="tt" value="">  <br><br>
+		 Enter Rate  : <input  id="rr" value=""> <br><br>
+		<input type="submit" value="Submit" onclick="add()">
+
+
+	</form>
+
+</body>
+</html>
